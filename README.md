@@ -7,11 +7,11 @@ Usage...
 
 ## Ubuntu 16.04 LTS
 
-'''
+```
 cd ~
 https://github.com/alkari/install_cv2.git
 chmod +x ubuntu_install_cv2.sh
 sudo ./ubuntu_install_cv2.sh
-'''
+```
 
 
