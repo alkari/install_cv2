@@ -10,6 +10,7 @@ Usage...
 ```
 cd ~
 git clone https://github.com/alkari/install_cv2.git
+cd install_cv2
 chmod +x ubuntu_install_cv2.sh
 sudo ./ubuntu_install_cv2.sh
 ```
