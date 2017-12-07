@@ -8,6 +8,7 @@ Usage...
 ## Ubuntu 16.04 LTS
 
 ```
+sudo apt install git -y
 cd ~
 git clone https://github.com/alkari/install_cv2.git
 cd install_cv2
