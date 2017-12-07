@@ -34,10 +34,10 @@ unzip -q opencv_contrib3.zip && mv opencv_contrib-3.3.0 opencv_contrib && rm ope
 mkdir opencv/build && cd opencv/build
 
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
-      -D BUILD_PYTHON_SUPPORT=ON 
+      -D BUILD_PYTHON_SUPPORT=ON \
       -D CMAKE_INSTALL_PREFIX=/usr/local \
-      -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules 
-      -D BUILD_EXAMPLES=OFF 
+      -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \
+      -D BUILD_EXAMPLES=OFF \
       -D PYTHON_DEFAULT_EXECUTABLE=/usr/bin/python3 \
       -D BUILD_opencv_python3=ON \
       -D BUILD_opencv_python2=OFF \
